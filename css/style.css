@@ -1,0 +1,274 @@
+/*
+* Template Name: Webiz
+* Template URI: https://www.salvatoremandis.it
+* Description: Webiz Digital Agency - Responsive Bootstrap Template
+* Author: Salvatore Mandis
+* Author URI: https://www.salvatoremandis.it
+*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway-Regular';
+}
+body {
+  background-color: #888;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background: linear-gradient(to right, #2ABED4, #07CDD4,#16E8D4);
+  padding: 0 !important;
+}
+/* Logo resize */
+.navbar-brand img {
+  height: 4rem;
+  padding-left: 3rem;
+}
+.navbar-nav {
+  margin-right: 3rem;
+}
+.navbar-nav li{
+  padding: 0 1rem;
+}
+.navbar-nav li {
+  padding: 0 1rem;
+}
+.navbar-nav .nav-item .nav-link { 
+  color: #fff !important; 
+  font-weight: 600; 
+  float: right; 
+  text-align: left;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #39615a!important;
+}
+.fa-bars {
+  color: #fff !important; 
+  font-size: 25px !important;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+/* --------- Banner ---------- */
+.banner {
+  background: linear-gradient(to right, #2ABED4, #07CDD4,#16E8D4);
+  color: #fff; 
+  padding-top: 10%;
+}
+.hello {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+.promo-title {
+  font-size: 2.5rem; 
+  font-weight: 600;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-family: "Raleway-Bold";
+}
+.join-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.link-play {
+  text-decoration: none;
+  color: #000;
+  font-family: "Raleway-Bold";
+}
+.link-play:hover {
+  color: #2ABED4;
+  font-family: "Raleway-Bold";
+  text-decoration: none !important;
+}
+.play-btn {
+  width: 45px;
+  margin: 20px 0;
+  margin-right: 5px;
+  text-decoration: none !important;
+  transition: transform 1.2s;
+}
+.play-btn:hover {
+  color: #444;
+  text-decoration: none!important;
+  transform: scale(1.2);
+}
+.banner a {
+  color: #fff; 
+  text-decoration: none!important;
+}
+.img-fluid {
+  margin-top: 2rem;
+}
+.marilyn {
+  text-align: right;
+  bottom: 0;
+}
+.bottom-img {
+  width: 100%;
+}
+/* ---------- Services --------- */
+#services {
+  padding: 50px 0;
+}
+.service-img {
+  width: 130px;
+   margin-top: 2rem;
+  }
+.services {
+  padding: 20px;
+}
+.services h4 {
+  padding: 1em; 
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.title::after {
+  content: '';
+  background: linear-gradient(to right, #2ABED4, #07CDD4,#16E8D4);
+  height: 8px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 70px;
+  transform: translateY(23px);
+}
+.container-3 .title::after {
+  content: '';
+  background: linear-gradient(to right, #FFF, #FFF, #FFF);
+  height: 8px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 70px;
+  transform: translateY(23px);
+}
+#services .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; 
+  border-radius: 0px;
+  background: linear-gradient(to right, #2ABED4, #07CDD4,#16E8D4);
+  transition: transform 1.2s;
+  margin: 0 5px;
+}
+#services .btn-primary:hover {
+  transform: scale(1.2);
+}
+/* -----------   About -------------*/
+#about {
+  background-color: #f8f9fa; 
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.about-title {
+  font-size: 1.6em;
+   margin-top: 8%; 
+  font-weight: 600;
+}
+#about ul li {
+  margin: 10px 0; 
+} 
+#about ul {
+  margin-left: 20px;
+}
+/* ------- Testimonials Section -----*/
+#testimonials {
+  margin: 100px 0;
+}
+.testimonials {
+  /* border-left: 5px solid #2ABED4; */
+  margin: 40px 0;
+}
+.testimonials img {
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+}
+.user-details {
+  /* display: inline-block; */
+  font-size: 12px;
+  text-align: left;
+  font-family: 'Raleway-Bold';
+}
+.feedback {
+  font-style: italic;
+}
+/* ----- Footer ------*/
+#footer {
+  background: linear-gradient(to right, #2ABED4, #07CDD4,#16E8D4);
+  color: #fff;
+}
+.footer-img {
+  width: 100%;
+}
+.footer-box {
+  padding-top: 20px;
+}
+.footer-box img {
+  width: 4rem; 
+  margin-bottom: 20px;
+}
+.footer-box .fa {
+  margin-right: 5px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+/*-------- Social Media icons ---------- */
+#social p {
+  font-weight: 600;
+  font-size: 16px; 
+  margin: 1px 0;
+}
+#social .social-icons .svg-icons img {
+  width: 50px;
+  transition: transform .7s;
+  margin: 5px 0.5rem;
+}
+#social .social-icons .svg-icons img:hover {
+  transform: scale(1.2);
+}
+.copyright {
+  padding-top: 2%;
+  font-size: 15px;
+}
+.copyright a {
+  text-decoration: none;
+  color: #fff;
+}
+.copyright a:hover {
+  text-decoration: none;
+  color: #2ABED4;
+}
+#soft {
+  margin: 50px 0;
+}
+.softs {
+  border-left: 5px solid #2ABED4;
+  margin: 70px 0;
+}
+.softs img {
+  height: 100px;
+  margin: 0 ;
+}
+.container-2 {
+  padding: 40px;
+}
+.container-1 {
+  padding: 30px;
+}
+.container-3 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
